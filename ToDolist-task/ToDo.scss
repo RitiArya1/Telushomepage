@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; 
+}
+
+.todo {
+  padding-bottom: 15px;
+  background: #3366ff;
+  color: #ffffff; 
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin-bottom: 20px;
+    font-size: 80px;
+    margin-top: 0; 
+  } 
+}
+
+input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  padding: 8px;
+  font-size: 20px;
+  flex-grow: 5;
+  max-width: 50%; 
+}
+
+.btn {
+  height: 32px;
+  width: 40px;
+  border-radius: 5px; 
+}
+
+.btn:hover {
+  background-color: #bbbbbb; 
+}
+
+.list-todo {
+  height: 75vh;
+  background-color: #ffffff;
+  padding-right: 10px;
+}
+
+.checkbtn {
+  flex-grow: 1; 
+}
+
+.editbt {
+  height: 32px;
+  border-radius: 5px;
+  background-color: #09a824; 
+}
+
+.delbtn {
+  height: 32px;
+  border-radius: 5px;
+  background-color: indianred;
+  margin-left: 10px; 
+}

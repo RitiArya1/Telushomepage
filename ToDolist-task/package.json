@@ -1,0 +1,17 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Task Sass",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass ToDo.scss ToDolist.css"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "Riti Arya",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
